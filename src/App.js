@@ -9,12 +9,12 @@ import Mst from "./components/pages/mst/Mst";
 function App() {
   return (
     <div className="App">
-      <Header data={"alo"} />
-      <About data={"alo"} />
+      <Header data={""} />
+      <About data={""} />
       <HeatmapPage />
       <CurrencyNetwork />
       <Mst />
-      <Footer data={"alo"} />
+      <Footer data={""} />
     </div>
   );
 }
